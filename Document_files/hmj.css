@@ -361,9 +361,6 @@
   margin: 32px 0 0 24px;
   font-size: 18px;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
 }
 
 .firstpin,
@@ -378,24 +375,20 @@
 .secondpin3,
 .thirdpin3,
 .fourthpin3 {
-  width: 350px;
+  width: 296px;
   height: 17px;
+  margin: 20px 0 0 30px;
   font-size: 14px;
   font-weight: 500;
   color: rgba(63, 65, 69);
   background-size: cover;
-  position: relative;
-  margin-left: 20px;
-  margin-top: -25px;
 }
 
-#iconcheck {
+.iconcheck {
   width: 20px;
   height: 20px;
   background-image: url("/icon-check.png");
   background-size: cover;
-  margin-top: 15px;
-  position: relative;
 }
 
 .selectp {
