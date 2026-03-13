@@ -1,0 +1,578 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.artal {
+  width: 1440px;
+  height: 773px;
+  background-image: url("/sec1-bg.png");
+  background-size: cover;
+}
+
+.navi {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px;
+  background-size: cover;
+}
+
+.logo {
+  width: 100px;
+  height: 34px;
+  background-image: url("/Logo.png");
+  background-size: cover;
+}
+
+.four {
+  display: flex;
+  gap: 24px;
+  width: 392px;
+  height: 22px;
+  color: white;
+}
+
+.home,
+.about,
+.image {
+  width: 100px;
+  height: 22px;
+  color: white;
+  font-family: Impact;
+  background-size: cover;
+}
+
+.hel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 13px;
+  gap: 10px;
+  background-color: white;
+  border-radius: 24px;
+  background-size: cover;
+}
+
+.hun {
+  width: 20px;
+  height: 20px;
+  background-image: url("/icon-user.png");
+  background-size: cover;
+}
+
+.top1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 140px;
+}
+
+.pure {
+  font-family: "Bebas Neue";
+  font-size: 80px;
+  color: #e8edf2b8;
+}
+
+.awaits {
+  font-family: "Bebas Neue";
+  font-size: 250px;
+  color: #fdfdfefa;
+}
+
+.pre {
+  font-family: "Bebas Neue";
+  font-size: 64px;
+  color: #ffffffcc;
+  margin-top: -50px;
+}
+.cardbg {
+  width: 1440px;
+  height: 500px;
+  padding: 65px 120px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("/sec2-bg.png");
+  background-size: cover;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  box-shadow:
+    -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  position: relative;
+}
+.card1 {
+  background-image: url("/sec2-location1.png");
+}
+.card2 {
+  background-image: url("/sec2-location2.png");
+}
+.card3 {
+  background-image: url("/sec2-location3.png");
+}
+.card4 {
+  background-image: url("/sec2-location4.png");
+}
+
+.card1w,
+.card2w,
+.card3w,
+.card4w {
+  width: 232px;
+  color: rgba(253, 253, 254, 0.8);
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-shadow: 0 4px 4.9px rgba(0, 0, 0, 0.65);
+  position: absolute;
+}
+.sec3 {
+  position: relative;
+  width: 1440px;
+  height: 1022px;
+  background-image: url("/sec3-bg.png");
+  background-size: cover;
+}
+.sec3word {
+  padding-top: 120px;
+  font-size: 42px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+}
+
+.sec3word2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #18181bb2;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+}
+
+.sec3card1,
+.sec3card2,
+.sec3card3,
+.sec3card4,
+.sec3card5 {
+  width: 513px;
+  height: 112px;
+  margin-top: 50px;
+  margin-left: 120px;
+  padding: 30px;
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
+}
+
+.sec3card1 {
+  margin-top: 59px;
+  background-color: rgba(238, 233, 217);
+}
+.sec3card2 {
+  background-color: rgba(139, 184, 193);
+}
+.sec3card3 {
+  background-color: rgba(170, 216, 215);
+}
+.sec3card4 {
+  background-color: rgba(139, 192, 189);
+}
+.sec3card5 {
+  background-color: rgba(151, 204, 224, 0.8);
+}
+
+.sadge {
+  display: flex;
+  flex-direction: column;
+}
+
+.sukh {
+  width: 217px;
+  height: 29px;
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  background-size: cover;
+}
+
+.icon1 {
+  width: 14px;
+  height: 14px;
+  margin-left: 20px;
+  background-image: url("/icon-pin.png");
+  background-size: cover;
+}
+
+.ul1 {
+  width: 68px;
+  height: 15px;
+  margin: -15px 0 0 40px;
+  font-size: 12px;
+  background-size: cover;
+}
+
+.day1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 48px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: white;
+  border-radius: 50px;
+  background-size: cover;
+}
+.sec4 {
+  width: 1440px;
+  height: 1120px;
+  padding-top: 100px;
+  background-image: url("/sec4-bg.png");
+  background-size: cover;
+}
+
+.sec4word1 {
+  padding-top: 70px;
+  font-size: 42px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+.sec4word2 {
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+.cardbg4 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 79px;
+}
+
+.sec4card1,
+.sec4card2,
+.sec4card3 {
+  width: 384px;
+  height: 527px;
+  background-color: white;
+  border-radius: 40px;
+  background-size: cover;
+}
+.sec4card1:hover {
+  box-shadow: 8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4);
+}
+
+.sec4card1header {
+  width: 20px;
+  height: 20px;
+  margin: 32px 0 0 24px;
+  border: 1px solid rgba(214, 216, 219);
+  border-radius: 999px;
+  background-image: url("/icon-fav.png");
+  background-size: cover;
+}
+
+.bg,
+.bg2,
+.bg3 {
+  width: 141px;
+  height: 22px;
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  background-size: cover;
+}
+
+.usd,
+.usd2,
+.usd3 {
+  width: 336px;
+  height: 49px;
+  margin: 32px 0 0 24px;
+  font-size: 40px;
+  font-weight: 600;
+  background-size: cover;
+}
+
+.package,
+.package2,
+.package3 {
+  width: 200px;
+  height: 19px;
+  margin-left: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(145, 145, 145);
+}
+.pop {
+  background-size: cover;
+  background-color: rgba(105, 114, 181, 1);
+  width: 91px;
+  height: 27px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 260px;
+  margin-top: -23px;
+  border-radius: 99px;
+}
+
+.includes {
+  width: 256px;
+  height: 22px;
+  margin: 32px 0 0 24px;
+  font-size: 18px;
+  background-size: cover;
+}
+
+.firstpin,
+.secondpin,
+.thirdpin,
+.fourthpin,
+.firstpin2,
+.secondpin2,
+.thirdpin2,
+.fourthpin2,
+.firstpin3,
+.secondpin3,
+.thirdpin3,
+.fourthpin3 {
+  width: 296px;
+  height: 17px;
+  margin: 20px 0 0 30px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(63, 65, 69);
+  background-size: cover;
+}
+
+.iconcheck {
+  width: 20px;
+  height: 20px;
+  background-image: url("/icon-check.png");
+  background-size: cover;
+}
+
+.selectp {
+  width: 336px;
+  height: 48px;
+  margin: 200px 0 0 24px;
+  background-color: rgba(164, 209, 226);
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  color: black;
+}
+.sec4card1:hover .selectp {
+  background-color: black;
+  color: white;
+}
+.sec4card2:hover .selectp {
+  background-color: black;
+  color: white;
+}
+.sec4card3:hover .selectp {
+  background-color: black;
+  color: white;
+}
+.last {
+  margin: 150px 0 0 79px;
+  color: rgba(105, 114, 181);
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  background-size: cover;
+}
+
+.last1,
+.last2 {
+  width: 167px;
+  height: 44px;
+  background-color: white;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-size: cover;
+}
+
+.lastlogo {
+  width: 101px;
+  height: 35px;
+  margin: -40px 0 0 1250px;
+  background-image: url("/Logo.png");
+  background-size: cover;
+}
+
+.fb {
+  width: 24px;
+  height: 24px;
+  background-image: url("/icon-fb.png");
+  background-size: cover;
+}
+
+.ig {
+  width: 24px;
+  height: 24px;
+  background-image: url("/icon-insta.png");
+  background-size: cover;
+}
+
+.ihbiy {
+  position: absolute;
+  left: 16.5%;
+}
+.mappin1,
+.mappin2,
+.mappin3,
+.mappin4 {
+  height: 34px;
+  width: 34px;
+  background-image: url("/MapPin.png");
+  background-size: cover;
+}
+
+.mappin1 {
+  position: absolute;
+  left: 1165px;
+  top: 445px;
+}
+.mappin2 {
+  position: absolute;
+  left: 952px;
+  top: 306px;
+}
+.mappin3 {
+  position: absolute;
+  left: 780px;
+  top: 428px;
+}
+.mappin4 {
+  position: absolute;
+  left: 952px;
+  top: 680px;
+}
+.cardopp1 {
+  left: 1032px;
+  top: 329px;
+  display: none;
+  z-index: 1;
+}
+.cardopp2 {
+  left: 840px;
+  top: 150px;
+  display: none;
+  z-index: 1;
+}
+.cardopp3 {
+  left: 650px;
+  top: 250px;
+  display: none;
+  z-index: 1;
+}
+.cardopp4 {
+  left: 770px;
+  top: 400px;
+  display: none;
+  z-index: 1;
+}
+.cardopp5 {
+  left: 670px;
+  top: 200px;
+  display: none;
+  z-index: 1;
+}
+.cardopp1,
+.cardopp2,
+.cardopp3,
+.cardopp4,
+.cardopp5 {
+  background-size: cover;
+  width: 245px;
+  height: 245px;
+  position: absolute;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover {
+  filter: brightness(70%);
+  z-index: 10;
+}
+.sec3card1:hover {
+  border: 4px solid white;
+}
+.sec3card2:hover {
+  border: 4px solid white;
+}
+.sec3card3:hover {
+  border: 4px solid white;
+}
+.sec3card4:hover {
+  border: 4px solid white;
+}
+.sec3card5:hover {
+  border: 4px solid white;
+}
+.sec3card1:hover .cardopp1 {
+  display: block;
+}
+.sec3card2:hover .cardopp2 {
+  display: block;
+}
+.sec3card3:hover .cardopp3 {
+  display: block;
+}
+.sec3card4:hover .cardopp4 {
+  display: block;
+}
+.sec3card5:hover .cardopp5 {
+  display: block;
+}
+.cardopp1,
+.cardopp2,
+.cardopp3,
+.cardopp4,
+.cardopp5 {
+  background-size: cover;
+  width: 245px;
+  height: 245px;
+  position: absolute;
+}

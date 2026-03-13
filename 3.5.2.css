@@ -1,0 +1,104 @@
+/* Variables for easy updates */
+:root {
+  --primary-white: #fdfdfefa;
+  --text-muted: rgba(232, 237, 242, 0.72);
+  --accent-blue: #1f72aa;
+  --font-main: "Bebas Neue", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.hero-section {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/sec1-bg.png") center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  background: url("/Logo.png") center/contain no-repeat;
+  width: 100px;
+  height: 34px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-help {
+  background: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 24px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Hero Text Layout */
+.hero-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -50px; /* Adjusting for visual balance */
+}
+
+.sub-heading {
+  font-family: var(--font-main);
+  font-size: 80px;
+  color: var(--text-muted);
+  letter-spacing: 10px;
+}
+
+.main-heading {
+  font-family: var(--font-main);
+  font-size: clamp(100px, 20vw, 250px);
+  color: var(--primary-white);
+  line-height: 0.8;
+}
+
+.description {
+  color: white;
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-top: 20px;
+}
