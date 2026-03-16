@@ -6,7 +6,7 @@
 .artal {
   width: 1440px;
   height: 773px;
-  background-image: url("./sec1-bg.png");
+  background-image: url("../sec1-bg.png");
   background-size: cover;
   position: relative;
 }
@@ -25,7 +25,7 @@
 .logo {
   width: 100px;
   height: 34px;
-  background-image: url("/Logo.png");
+  background-image: url("../Logo.png");
   background-size: cover;
 }
 
@@ -63,7 +63,7 @@
 .hun {
   width: 20px;
   height: 20px;
-  background-image: url("/icon-user.png");
+  background-image: url("../icon-user.png");
   background-size: cover;
 }
 
@@ -100,7 +100,7 @@
   padding: 65px 120px;
   display: flex;
   justify-content: space-between;
-  background-image: url("/sec2-bg.png");
+  background-image: url("../sec2-bg.png");
   background-size: cover;
 }
 
@@ -122,16 +122,16 @@
   position: relative;
 }
 .card1 {
-  background-image: url("/sec2-location1.png");
+  background-image: url("../sec2-location1.png");
 }
 .card2 {
-  background-image: url("/sec2-location2.png");
+  background-image: url("../sec2-location2.png");
 }
 .card3 {
-  background-image: url("/sec2-location3.png");
+  background-image: url("../sec2-location3.png");
 }
 .card4 {
-  background-image: url("/sec2-location4.png");
+  background-image: url("../sec2-location4.png");
 }
 
 .card1w,
@@ -154,7 +154,7 @@
   position: relative;
   width: 1440px;
   height: 1022px;
-  background-image: url("/sec3-bg.png");
+  background-image: url("../sec3-bg.png");
   background-size: cover;
 }
 .sec3word {
@@ -226,7 +226,7 @@
   width: 14px;
   height: 14px;
   margin-left: 20px;
-  background-image: url("/icon-pin.png");
+  background-image: url("../icon-pin.png");
   background-size: cover;
 }
 
@@ -254,7 +254,7 @@
   width: 1440px;
   height: 1120px;
   padding-top: 100px;
-  background-image: url("/sec4-bg.png");
+  background-image: url("../sec4-bg.png");
   background-size: cover;
 }
 
@@ -304,7 +304,7 @@
   margin: 32px 0 0 24px;
   border: 1px solid rgba(214, 216, 219);
   border-radius: 999px;
-  background-image: url("/icon-fav.png");
+  background-image: url("../icon-fav.png");
   background-size: cover;
 }
 
@@ -391,7 +391,7 @@
 #iconcheck {
   width: 20px;
   height: 20px;
-  background-image: url("/icon-check.png");
+  background-image: url("../icon-check.png");
   background-size: cover;
   margin-top: 15px;
   position: relative;
@@ -447,7 +447,7 @@
   width: 101px;
   height: 35px;
   margin: -40px 0 0 1250px;
-  background-image: url("/Logo.png");
+  background-image: url("../Logo.png");
   background-size: cover;
 }
 .ihbiy {
@@ -463,7 +463,7 @@
 .mappin4 {
   height: 34px;
   width: 34px;
-  background-image: url("/MapPin.png");
+  background-image: url("../MapPin.png");
   background-size: cover;
 }
 
